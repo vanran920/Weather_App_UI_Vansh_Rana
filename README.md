@@ -1,16 +1,89 @@
-# React + Vite
+# 🌦 Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern weather application built with React that provides real-time weather information and a 5-day forecast for any city using the OpenWeatherMap API.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Search weather by city name
+- Real-time temperature display
+- Weather condition icons
+- Humidity information
+- Wind speed information
+- 5-day weather forecast
+- Detect and display user's current location weather
+- Refresh weather data
+- Live date and time display
+- Day/Night theme based on weather conditions
+- Responsive UI with Tailwind CSS
 
-## React Compiler
+## 🛠 Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React.js
+- JavaScript (ES6+)
+- Tailwind CSS
+- OpenWeatherMap API
+- Geolocation API
 
-## Expanding the ESLint configuration
+## 📦 Installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone the repository
+
+```bash
+git clone https://github.com/vanran920/Weather_App_UI_Vansh_Rana.git
+```
+
+2. Navigate to the project directory
+
+```bash
+cd front-end
+```
+
+3. Install dependencies
+
+```bash
+npm install
+```
+
+4. Start the development server
+
+```bash
+npm run dev
+```
+
+## 🔑 API Setup
+
+1. Create an account at OpenWeatherMap.
+2. Generate an API key.
+3. Replace the API key in the project:
+
+```js
+appid=38ff86cbe9661a51e876d452e4ded41f
+```
+
+## 📋 Usage
+
+- Enter a city name and click **Search**.
+- Click **Use My Location** to get weather based on your current location.
+- Click **Refresh** to reload weather data.
+- View temperature, humidity, wind speed, and forecast information.
+
+## 📸 Screenshots
+
+<img width="832" height="857" alt="image" src="https://github.com/user-attachments/assets/09dfd485-5c5c-4fc0-91d8-809f691ff73f" /> 
+<img width="462" height="390" alt="image" src="https://github.com/user-attachments/assets/23d6831f-83e6-464f-9e4b-65f57e0e61c8" />
+
+
+
+## 🌟 Future Improvements
+
+- Hourly forecast
+- Weather maps
+- Air quality information
+- Favorite cities
+- Temperature unit conversion (°C/°F)
+- Better error handling
+- Weather animations
+
+## 👨‍💻 Author
+
+Vansh Rana
